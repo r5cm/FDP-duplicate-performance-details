@@ -2,7 +2,7 @@
 
 # Login to Salesforce
 library(RForcecom)
-password <- "lestari45PtkwZcuVt5G3DtiK39kq30MnI"
+password <- readline(prompt = "Enter password: ")
 session <- rforcecom.login("reports@utzmars.org", password)
 
 # Retrieve performance details
